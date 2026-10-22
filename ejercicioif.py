@@ -10,4 +10,8 @@ if edad >= 18:# el if va seguido de la mcondicion y dos puntos
     print("Eres mayor de edad")
 else:# el else va seguido de dos puntos para decidir que se hace si no se cumple la condicion del if
     print("No eres mayor de edad")
-    print("no puedes ingresar a la pagina")
+
+    if nacionalidad == "N" :
+        print("Eres de nacionalidad mexicana")
+    else :
+        print("No eres de nacionalidad mexicana")
